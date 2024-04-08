@@ -7,3 +7,7 @@ All projects done with Pi 3,3B +,4 and 5 (basically ARM A processors)
 ## Node-Red
 - Download from node-red pi site
 - use port 1880.
+##### nohup
+- no hangup command
+- terminal session lost doesnot effect command execution
+  
