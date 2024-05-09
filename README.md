@@ -22,3 +22,5 @@ All projects done with Pi 3,3B +,4 and 5 (basically ARM A processors)
 ##### Bluetooth
 -hciconfig -a
 <br>![Screenshot from 2024-05-09 10-48-15](https://github.com/hawahari/Raspberry-pi-practice/assets/149294262/de0b58fc-a210-403d-ae98-7fc4affe5bc9)
+<br>![Screenshot from 2024-05-09 13-04-00](https://github.com/hawahari/Raspberry-pi-practice/assets/149294262/f6365f63-6615-4fa7-b5c1-a623a946ba7a)
+
