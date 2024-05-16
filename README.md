@@ -31,5 +31,5 @@ sudo nmap -sn 192.168.1.254/24<br>
 ##### Installing tensorflow(for Raspberry Pi 3)
 - pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.9.0-py3-none-any.whl
 ##### Installing KERAS 
-- pip3 install keras==2.2.5
+- pip3 install keras==2.2.5( sudo command was necessary)
   
