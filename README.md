@@ -27,3 +27,9 @@ All projects done with Pi 3,3B +,4 and 5 (basically ARM A processors)
 #### Useful commands
 sudo nmap -sn 192.168.1.254/24<br>
 - 192.168.1.254 here refers to the default route or router of address.
+#### ML
+##### Installing tensorflow(for Raspberry Pi 3)
+- pip3 install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.9.0-py3-none-any.whl
+##### Installing KERAS 
+- pip3 install keras==2.2.5
+  
