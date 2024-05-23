@@ -20,9 +20,20 @@ All projects done with Pi 3,3B +,4 and 5 (basically ARM A processors)
 - Send a reply to the client, or close the socket.
 - Go back to Step 3 (if not closed).
 ##### Bluetooth
--hciconfig -a
+- hcitool dev
+- hciconfig -a
 <br>![Screenshot from 2024-05-09 10-48-15](https://github.com/hawahari/Raspberry-pi-practice/assets/149294262/de0b58fc-a210-403d-ae98-7fc4affe5bc9)
 <br>![Screenshot from 2024-05-09 13-04-00](https://github.com/hawahari/Raspberry-pi-practice/assets/149294262/f6365f63-6615-4fa7-b5c1-a623a946ba7a)
+- hcitool -i hci0 scan: scans for bluetooth devices
+- bluetoothctl:opens bluetooth terminal
+- power on
+- scan on
+- trust mac-address of device
+- connect mac-addr
+- disconnect mac-addr
+- sudo systemctl status bluetooth
+- sudo systemctl start bluetooth
+- sudo systemctl stop bluetooth
 
 #### Useful commands
 sudo nmap -sn 192.168.1.254/24<br>
