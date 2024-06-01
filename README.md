@@ -34,6 +34,9 @@ All projects done with Pi 3,3B +,4 and 5 (basically ARM A processors)
 - sudo systemctl status bluetooth
 - sudo systemctl start bluetooth
 - sudo systemctl stop bluetooth
+- rfkill toggle bluetooth
+- rfkill block bluetooth
+- rfkill unblock bluetooth
 
 #### Useful commands
 sudo nmap -sn 192.168.1.254/24<br>
