@@ -44,3 +44,13 @@ sudo nmap -sn 192.168.1.254/24<br>
 ##### Installing KERAS 
 - pip3 install keras==2.2.5( sudo command was necessary)
   
+##### Wpa format
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+        ssid=""
+        psk=""
+}
+
+
